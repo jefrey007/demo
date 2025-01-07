@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE_NAME = "demo"
-        DOCKER_REGISTRY = "docker.io"  // Change if you're using a private registry
+        DOCKER_REGISTRY = "docker.io"  
     }
 
     stages {
